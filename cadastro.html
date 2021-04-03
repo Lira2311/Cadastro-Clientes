@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+   <h1>Cadastro de Clientes</h1>
+
+   <form name="form"></form>
+    
+    <div class="formulario">
+        
+        <h2>Dados Cadastrais</h2>
+
+        <p>Nome:
+        <input type="text" id="nome" placeholder="Nome completo" required="required" name="nome" style="width: 700px;">
+        <label for="nome"></label>
+        </p>
+
+        <p>RG:
+        <input type="text"  id="rg" placeholder="xx.xxx.xxx-x" required="required" name="rg">
+        <label for="rg"></label>        
+        </p>
+
+        <p>CPF:
+        <input type="text" id="cpf" placeholder=xxx.xxx.xxx-xx required="required" name="cpf" >
+        <label for="cpf"></label>
+        </p>
+
+        <p>Data de Nascimento:
+        <input type="date" id="nasc" placeholder="xx/xx/xxxx" required="required" name="nasc" >
+        <label for="nasc"></label>
+        </p>
+
+        <p>Sexo:
+            <input type="radio" name="radsex" id="masc">
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+        </p>
+
+        <p>Telefone Fixo:
+        <input type="text" id="fone" placeholder="(xx) xxxx-xxxx" required="required" name="telefone" >
+        <label for="fone"></label>
+        </p>
+
+        <p>Celular:
+        <input type="text" id="fone2" placeholder="(xx) xxxxx-xxxx" required="required" name="telefone2" >
+        <label for="fone2"></label>
+        </p>
+
+        <p>E-mail:
+        <input type="text" id="e-mail" placeholder="xxxxx@xxxx.xxx" required="required" name="e-mail" style="width: 500px;">
+        <label for="e-mail"></label>
+        </p>
+
+        <p>Endereço:
+        <input type="text" id="endereco" placeholder="Endereço" required="required" name="endereco">
+        <label for="end"></label>
+        </p>
+
+        <p>Cidade:
+        <input type="text" id="cidade" placeholder="São Paulo" required="required" name="cidade" >
+        <label for="cidade"></label>
+        </p> 
+
+        <p>Cep:
+        <input type="text" id="cep" placeholder="xxxxx-xxx" required="required" name="cep" >
+        <label for="cep"></label>
+        </p>
+
+    </div>
+
+        
+
+
+
+
+   </form>
+    <script src="cadastro.js"></script>
+</body> 
+</html>
