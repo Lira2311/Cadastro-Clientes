@@ -1,5 +1,5 @@
 body{
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
     padding: 0;
     margin: 0 ;
     
@@ -30,7 +30,17 @@ input{
 }
 #doc{
     margin-left: 20px;
+
 }
 #endereco{
     width: 550px;
+}
+#botao{
+    margin-left: 320px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    
+    
+    
 }

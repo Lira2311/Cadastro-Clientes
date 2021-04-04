@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Clientes</title>
     <link rel="stylesheet" href="cadastro.css">
+    
 </head>
 <body>
    <h1>Cadastro de Clientes</h1>
@@ -17,7 +18,7 @@
         <h2>Dados Cadastrais</h2>
 
         <p>Nome:
-            <input type="text" id="nome" placeholder="Nome completo" required="required" name="nome" style="width: 700px;">
+            <input type="text" id="dados" placeholder="Nome completo" required="required" name="nome" style="width: 700px;">
             <label for="nome"></label>
         </p>
 
@@ -79,18 +80,24 @@
             <input type="text" id="cep" placeholder="xxxxx-xxx" required="required" name="cep" >
             <label for="cep"></label>
         </p>
-        
-    </div>
-        
 
+                
     </div>
 
-        
+        <div class="doc">
+            <p >
+                <input type="button" value="Limpar Campos" onclick="limpar()" id="botao">
+            </p>
+            <p >
+                <input type="button" value="Cadastrar" onclick="confirmar()" id="botao">
+            </p>
+        </div>
 
-
+    </div>   
 
 
    </form>
     <script src="cadastro.js"></script>
+    
 </body> 
 </html>
