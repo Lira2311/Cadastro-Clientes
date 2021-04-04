@@ -2,6 +2,7 @@ body{
     background-color:cornflowerblue;
     padding: 0;
     margin: 0 ;
+    
 }
 h1{
     text-align: center;
@@ -23,6 +24,13 @@ input{
     font-size: 20px;
     
 }
-#cpf{
+.doc{
+    display: flex;
     
+}
+#doc{
+    margin-left: 20px;
+}
+#endereco{
+    width: 550px;
 }
