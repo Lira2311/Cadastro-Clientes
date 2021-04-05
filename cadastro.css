@@ -4,6 +4,41 @@ body{
     margin: 0 ;
     
 }
+ 
+.topbar {
+    background-color:orangered;
+}
+  
+.topbar-inner {    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+
+}
+  
+.login {
+    display: flex;
+    font-size: 20px;
+}
+  
+.acesso {
+    margin-left: 10px;
+    align-self: flex-end;
+}
+  
+.input-senha + .input-senha {
+    margin-left: 10px;    
+}
+  
+.input-container label {
+    display: block;
+}
+
 h1{
     text-align: center;
     font-size: 50px;
@@ -22,7 +57,7 @@ h2{
 }
 input{
     font-size: 20px;
-    
+        
 }
 .doc{
     display: flex;
