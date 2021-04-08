@@ -44,37 +44,32 @@ body{
 .input-container label {
     display: block;
 }
-
-h1{
+h2{
     text-align: center;
     font-size: 50px;
 }
-.formulario {
-    margin-left: 15px;
+.formulario2 {    
     font-size: 20px;
- 
-}
-h2{
-    font-size: 30px;
-    margin-left: 10px;
 }
 input{
     font-size: 20px;
-        
 }
-.doc{
+.docpg2{
     display: flex;
-    
+    margin-left: 200px;      
 }
-#doc{
-    margin-left: 20px;
+#docpg2{
+    margin-left: 15px;
+}
 
+#txtarea{
+    
+    margin-left: 28%;
+       
 }
-#nome{
-    width: 700px;
-}
-#endereco{
-    width: 550px;
+.txtarea{
+    text-align: center;
+    font-size: 30px;
 }
 #bot{
     position:absolute;
@@ -85,7 +80,6 @@ input{
     
 }
 #footer{
-    text-align: center;
-    padding: 40px;
-    font-size: 15px;
-}
+    margin-left:38%;
+    padding-top: 50px;
+}   

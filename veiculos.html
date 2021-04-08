@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Veículos</title>
-    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="veiculos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">    
 </head>
 <body>
@@ -31,19 +32,52 @@
 
       <h2>Cadastro Veículos</h2>
 
-      <div>
-          <p>Marca:
+      <form class="formulario2">
+
+        <div class="docpg2">
+          <p id="docpg2">Marca:
             <input type="text" name="veiculo" id="veic">
             <label for="marca"></label>
           </p>
-          <p>Modelo:
+          <p id="docpg2">Modelo:
             <input type="text" name="modelo" id="mod">
             <label for="modelo"></label>
           </p>
-          <p>Ano:
-            <input type="number" name="" id="">
+          <p id="docpg2">Ano:
+            <input type="number" name="ano" id="ano">
+            <label for="ano"></label>
           </p>
-      </div>
+        </div>
+
+        <div class="docpg2">
+            <p id="docpg2">Chassi:
+              <input type="text" name="chassi" id="chassi">
+              <label for="cassi"></label>
+            </p>
+            <p id="docpg2">Km:
+              <input type="text" name="km" id="km">
+              <label for="km"></label>
+            </p>
+            <p id="docpg2">Primeiro cadastro em:
+              <input type="date" name="cadast" id="cadast">
+              <label for="cadast"></label>
+            </p>
+        </div>
+        <p class="txtarea"><strong>Informações adicionais:</strong></p>
+        <textarea name="info" id="txtarea" cols="80" rows="20"></textarea>
+      </form>
+
+      <div class="doc">
+        <p>
+            <input type="submit" value="Cadastrar" onclick="confirmar()" id="bot">
+        </p>
+    </div>
+      
     
+      <footer id="footer">
+
+        <p>CENTRO AUTOMOTIVO ABC <a href="mailto:hege@example.com">centroautoabc@abc.com</a></p>
+        
+      </footer>
 </body>
 </html>
