@@ -1,5 +1,8 @@
+html{
+    min-height: 100%;
+}
 body{
-    background-color: cornflowerblue;
+    background-image:linear-gradient(cornflowerblue, white) ;
     padding: 0;
     margin: 0 ;
     
@@ -7,6 +10,9 @@ body{
  
 .topbar {
     background-color:orangered;
+    border-radius: 20px;
+    box-shadow:9px 7px 5px rgba(50, 50, 50, 0.77);
+
 }
   
 .topbar-inner {    
@@ -70,12 +76,17 @@ input{
 #endereco{
     width: 550px;
 }
-#botao{
-    margin-left: 320px;
+#bot{
+    position:absolute;
+    left: 40%;
     border-radius: 10px;
     text-align: center;
-    width: 200px;
+    width: 200px;   
     
     
-    
+}
+#footer{
+    text-align: center;
+    padding: 40px;
+    font-size: 15px;
 }

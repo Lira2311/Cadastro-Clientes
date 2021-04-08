@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Clientes</title>
     <link rel="stylesheet" href="cadastro.css">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">    
 </head>
-<body>
+<body img src= C:\Users\User\Desktop\Projeto1\pexels-pixabay-248539 (1).png>
     <div class="topbar">
         <div class="topbar-inner">
           <div class="logo">C.A ABC</div>
@@ -16,7 +17,7 @@
           <form class="login">
             <div class="input-senha">
               <label for="email">Email</label>
-              <input id="email" name="name" type="text">
+              <input id="e-mail" name="name" type="text">
             </div>
       
             <div class="input-senha">
@@ -24,7 +25,7 @@
               <input id="password" name="password" type="password">
             </div>
       
-            <input class="acesso" type="submit" value="Entrar">
+            <input class="acesso" type="submit" value="Entrar" onclick="usuario()">
           </form>
         </div>
       </div>  
@@ -37,7 +38,7 @@
         <h2>Dados Cadastrais</h2>
 
         <p>Nome:
-            <input type="text" id="dados" placeholder="Nome completo" required="required" name="nome" style="width: 700px;">
+            <input type="text" id="nome" placeholder="Nome completo" required="required" name="nome" style="width: 700px;">
             <label for="nome"></label>
         </p>
 
@@ -78,8 +79,8 @@
         </p>
     </div>        
 
-        <p>E-mail:
-            <input type="text" id="e-mail" placeholder="xxxxx@xxxx.xxx" required="required" name="e-mail" style="width: 500px;">
+        <p>Email:
+            <input type="text" id="email" placeholder="xxxxx@xxxx.xxx" required="required" name="e-mail" style="width: 500px;">
             <label for="e-mail"></label>
         </p>
 
@@ -104,11 +105,8 @@
     </div>
 
         <div class="doc">
-            <p >
-                <input type="button" value="Limpar Campos" onclick="limpar()" id="botao">
-            </p>
-            <p >
-                <input type="button" value="Cadastrar" onclick="confirmar()" id="botao">
+            <p>
+                <input type="submit" value="Cadastrar" onclick="confirmar()" id="bot">
             </p>
         </div>
 
@@ -116,6 +114,11 @@
 
 
    </form>
+
+   <footer id="footer">
+    <p>CENTRO AUTOMOTIVO ABC  <a href="mailto:hege@example.com">centroautoabc@abc.com</a></p>
+    
+  </footer>
     <script src="cadastro.js"></script>
     
 </body> 
