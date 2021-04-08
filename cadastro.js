@@ -30,7 +30,7 @@ function confirmar() {
     }if (document.getElementById("cep").value.length== " "){
         alert("Por favor, preencha o campo CEP corretamente!")
     }else{
-    alert("Cadastro efeituado com sucesso!")
+        alert("Cadastro efeituado com sucesso!")
     
 }
 }

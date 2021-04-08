@@ -10,35 +10,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">    
 </head>
 <body>
-    <div class="topbar">
-        <div class="topbar-inner">
-          <div class="logo">C.A ABC</div>
-      
-          <form class="login">
-            <div class="input-senha">
-              <label for="email">Email</label>
-              <input id="email" name="name" type="text">
-            </div>
-      
-            <div class="input-senha">
-              <label for="password">Senha</label>
-              <input id="password" name="password" type="password">
-            </div>
-      
-            <input class="acesso" type="submit" value="Entrar">
-          </form>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="logo">C.A ABC</div>
+  
+      <form class="login">
+        <div class="input-senha">
+          <label for="email">Email: </label>
+          <input id="e-mail" name="name" type="text">
         </div>
-      </div>
+  
+        <div class="input-senha">
+          <label for="password">Senha: </label>
+          <input id="password" name="password" type="password">
+        </div>
+  
+        <input class="acesso" type="submit" value="Entrar" onclick="usuario()">
+      </form>
+    </div>
+  </div>
 
-      <h2>Cadastro Veículos</h2>
+<h2>Cadastro Veículos</h2>
 
-      <form class="formulario2">
+   <form class="formulario2">
 
-        <div class="docpg2">
-          <p id="docpg2">Marca:
-            <input type="text" name="veiculo" id="veic">
-            <label for="marca"></label>
-          </p>
+     <div class="docpg2">
+       <p id="docpg2">Marca:
+          <input type="text" name="veiculo" id="veic">
+          <label for="marca"></label>
+       </p>
           <p id="docpg2">Modelo:
             <input type="text" name="modelo" id="mod">
             <label for="modelo"></label>
@@ -47,12 +47,12 @@
             <input type="number" name="ano" id="ano">
             <label for="ano"></label>
           </p>
-        </div>
+     </div>
 
         <div class="docpg2">
             <p id="docpg2">Chassi:
               <input type="text" name="chassi" id="chassi">
-              <label for="cassi"></label>
+              <label for="chassi"></label>
             </p>
             <p id="docpg2">Km:
               <input type="text" name="km" id="km">
@@ -79,5 +79,7 @@
         <p>CENTRO AUTOMOTIVO ABC <a href="mailto:hege@example.com">centroautoabc@abc.com</a></p>
         
       </footer>
+
+      <script src="veiculos.js"></script>
 </body>
 </html>
