@@ -1,0 +1,55 @@
+html{
+    min-height: 100%;
+}
+body{
+    background-image:linear-gradient(cornflowerblue, white) ;
+    padding: 0;
+    margin: 0 ;
+    
+}
+ 
+.topbar {
+    background-color:orangered;
+    border-radius: 20px;
+    box-shadow:9px 7px 5px rgba(50, 50, 50, 0.77);
+
+}
+  
+.topbar-inner {    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+
+}
+  
+.login {
+    display: flex;
+    font-size: 20px;
+}
+  
+.acesso {
+    margin-left: 10px;
+    align-self: flex-end;
+}
+  
+.input-senha + .input-senha {
+    margin-left: 10px;    
+}
+  
+.input-container label {
+    display: block;
+}
+.bloco1{
+    min-width: 80%;
+    height: 400px; 
+    margin-left: 100px;
+}
+#footer{
+    margin-left:38%;
+    padding-top: 50px;
+}   
